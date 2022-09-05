@@ -26,11 +26,6 @@
                 lista
             </b-navbar-item>
 
-          
-          <b-navbar-item tag="router-link" :to="{ path: '/endereços' }">
-                endereços
-            </b-navbar-item>
-
           <b-navbar-item tag="router-link" :to="{ path: '/pedido' }">
                Faça seu pedido
             </b-navbar-item>

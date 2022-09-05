@@ -24,13 +24,93 @@
         </b-field>
       </div>
       <div class="column is-9">
-        <figure class="image is-300x300">
-  <img src="https://bulma.io/images/placeholders/128x128.png">
-</figure>
-        <article class="notification is-primary has-text-centered">
-          <p class="title">Baunilha</p>
-          <p class="subtitle">R$3,00</p>
-        </article>
+        <div class="columns">
+          
+          <div class="column">
+          <div class="produto">
+            <figure class="image is-130x130">
+              <img src="https://mrcheney.com.br/wp-content/uploads/2016/03/macadamia2.png">
+              <h6 class="title is-6 has-text-centered">Baunilha</h6>
+              <p class="subtitle is-6 has-text-centered"> R$3,00</p>
+            </figure>
+          </div> 
+
+          <div class="produto">
+            <figure class="image is-130x130">
+              <img src="https://mrcheney.com.br/wp-content/uploads/2016/03/macadamia2.png">
+              <h6 class="title is-6 has-text-centered">Baunilha</h6>
+              <p class="subtitle is-6 has-text-centered"> R$3,00</p>
+            </figure>
+          </div> 
+
+            <div class="produto">
+            <figure class="image is-130x130">
+              <img src="https://mrcheney.com.br/wp-content/uploads/2016/03/macadamia2.png">
+              <h6 class="title is-6 has-text-centered">Baunilha</h6>
+              <p class="subtitle is-6 has-text-centered"> R$3,00</p>
+            </figure>
+          </div> 
+            
+          </div>
+          
+          <div class="column">
+            
+           <div class="produto">
+            <figure class="image is-130x130">
+              <img src="https://mrcheney.com.br/wp-content/uploads/2016/03/cookiebrownie.png">
+              <h6 class="title is-6 has-text-centered">Chocolate</h6>
+              <p class="subtitle is-6 has-text-centered"> R$3,00</p>
+            </figure>
+          </div>
+
+            <div class="produto">
+            <figure class="image is-130x130">
+              <img src="https://mrcheney.com.br/wp-content/uploads/2016/03/cookiebrownie.png">
+              <h6 class="title is-6 has-text-centered">Chocolate</h6>
+              <p class="subtitle is-6 has-text-centered"> R$3,00</p>
+            </figure>
+          </div>
+
+            <div class="produto">
+            <figure class="image is-130x130">
+              <img src="https://mrcheney.com.br/wp-content/uploads/2016/03/cookiebrownie.png">
+              <h6 class="title is-6 has-text-centered">Chocolate</h6>
+              <p class="subtitle is-6 has-text-centered"> R$3,00</p>
+            </figure>
+          </div>
+  
+          </div>
+          <div class="column">
+            
+           <div class="produto">
+            <figure class="image is-130x130">
+              <img src="https://mrcheney.com.br/wp-content/uploads/2016/03/Mm.png">
+              
+              <h6 class="title is-6 has-text-centered">M&M</h6>
+              <p class="subtitle is-6 has-text-centered"> R$3,00</p>
+            </figure>
+          </div>
+
+              <div class="produto">
+            <figure class="image is-130x130">
+              <img src="https://mrcheney.com.br/wp-content/uploads/2016/03/Mm.png">
+              
+              <h6 class="title is-6 has-text-centered">M&M</h6>
+              <p class="subtitle is-6 has-text-centered"> R$3,00</p>
+            </figure>
+          </div>
+
+              <div class="produto">
+            <figure class="image is-130x130">
+              <img src="https://mrcheney.com.br/wp-content/uploads/2016/03/Mm.png">
+              
+              <h6 class="title is-6 has-text-centered">M&M</h6>
+              <p class="subtitle is-6 has-text-centered"> R$3,00</p>
+            </figure>
+          </div>
+          </div>
+        </div>
+        
       </div>
     </div>
 

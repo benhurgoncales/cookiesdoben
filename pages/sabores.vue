@@ -13,7 +13,7 @@
       
       <div class="column is-6">
       <div
-        <h1 class="title is-1  has-text-centered" style=background-color:#E1E12> Cookie Baunilha</h1>
+        <h1 class="title is-1  has-text-centered" style=background-color:#E1E12> Cookie Cookie Nutela</h1>
 
         <article class="message">
           
@@ -91,7 +91,7 @@
       
       <div class="column is-6">
       <div
-        <h1 class="title is-1  has-text-centered" style=background-color:#E1E12> Cookie Baunilha</h1>
+        <h1 class="title is-1  has-text-centered" style=background-color:#E1E12> Cookie Chocolate</h1>
 
         <article class="message">
           
@@ -130,7 +130,7 @@
       
       <div class="column is-6">
       <div
-        <h1 class="title is-1  has-text-centered" style=background-color:#E1E12> Cookie Baunilha</h1>
+        <h1 class="title is-1  has-text-centered" style=background-color:#E1E12> Cookie Doce de Leite</h1>
 
         <article class="message">
           
