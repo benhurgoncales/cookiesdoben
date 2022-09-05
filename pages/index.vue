@@ -23,18 +23,18 @@
     <div class="columns mt-4">
       <div class="column is-3">
         <figure class="image is-300x300">
-  <img src="https://bulma.io/images/placeholders/128x128.png">
+  <img src="https://mrcheney.com.br/wp-content/uploads/2016/03/triple.png">
 </figure>
-        <article class="notification is-primary has-text-centered">
+        <article class="notification is-warning has-text-centered">
           <p class="title">Baunilha</p>
           <p class="subtitle">R$3,00</p>
         </article>
       </div>
       <div class="column is-3">
 <figure class="image is-300x300">
-  <img src="https://bulma.io/images/placeholders/128x128.png">
+  <img src="https://mrcheney.com.br/wp-content/uploads/2016/03/macadamia2.png">
 </figure>
-        <article class="notification is-info has-text-centered">
+        <article class="notification is-warning has-text-centered">
           
           <p class="title">Chocolate</p>
           <p class="subtitle">R$3,00</p>
@@ -42,18 +42,18 @@
       </div>
       <div class="column is-3">
         <figure class="image is-300x300">
-  <img src="https://bulma.io/images/placeholders/128x128.png">
+  <img src="https://mrcheney.com.br/wp-content/uploads/2016/03/cookiebrownie.png">
 </figure>
-        <article class="notification is-primary has-text-centered">
+        <article class="notification is-warning has-text-centered">
           <p class="title">Doce de Leite</p>
           <p class="subtitle">R$5,00</p>
         </article>
       </div>  
       <div class="column is-3">
         <figure class="image is-300x300">
-  <img src="https://bulma.io/images/placeholders/128x128.png">
+  <img src="https://mrcheney.com.br/wp-content/uploads/2016/03/ChocolateWalnut.png">
 </figure>
-        <article class="notification is-primary has-text-centered">
+        <article class="notification is-warning has-text-centered">
           <p class="title">Red Velvet</p>
           <p class="subtitle">R$5,00</p>
         </article>
@@ -62,7 +62,7 @@
 
 
      <div>
-        <section class="hero is-primary ">
+        <section class="hero is-danger ">
             <div class="hero-body ">
                 <p class="title has-text-centered">
                     O SABOR DO SEU INTERVALO

@@ -1,10 +1,10 @@
 <template>
   <div class="container is-fluid" >
 
-    <b-navbar shadow="true" >
+    <b-navbar shadow="true" style="height:90px">
         <template #brand>
             <b-navbar-item tag="router-link" :to="{ path: '/' }">
-                <img
+                <img style="max-height:90px"
                     src="https://github.com/benhurgoncales/cookiesdoben/blob/master/assets/Cookies.png?raw=true"
                     alt="Lightweight UI components for Vue.js based on Bulma"
                 >
@@ -29,15 +29,20 @@
           <b-navbar-item tag="router-link" :to="{ path: '/pedido' }">
                Faça seu pedido
             </b-navbar-item>
+
+            <b-navbar-item tag="router-link" :to="{ path: '/carrinho' }">
+               Carrinho
+            </b-navbar-item>
+
         </template>
 
         <template #end>
             <b-navbar-item tag="div">
                 <div class="buttons">
-                    <a class="button is-primary">
+                    <a class="button is-warning" href="/cadastro">
                         <strong>Cadastre-se</strong>
                     </a>
-                    <a class="button is-light">
+                    <a class="button is-light" href="/login">
                         Login
                     </a>
                 </div>

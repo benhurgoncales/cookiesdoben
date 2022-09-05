@@ -47,7 +47,7 @@
         </b-field>
 
         <div class="buttons">
-           <button class="button is-success">Confirmar compra</button>
+           <button class="button is-success">Adicionar ao Carrinho</button>
         </div>
 
         
