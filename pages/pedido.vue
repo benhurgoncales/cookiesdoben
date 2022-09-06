@@ -7,8 +7,8 @@
   
       </div>
       
-      <div class="column is-4" style="background-color: #E1E1E2">
-        
+      <div class="column is-4">
+        <form class="box">
         <h1 class="title"> Faça seu pedido </h1>
         
         <b-field label="Digite seu nome">
@@ -30,7 +30,7 @@
         </b-field>
         
         <b-field label="Quantiade de Cookies">
-            <b-numberinput controls-rounded></b-numberinput>
+            <b-numberinput controls-rounded ></b-numberinput>
         </b-field>
 
         <b-field label="Hora para receber">
@@ -50,7 +50,7 @@
            <button class="button is-success">Adicionar ao Carrinho</button>
         </div>
 
-        
+      </form>
       </div>
 
       

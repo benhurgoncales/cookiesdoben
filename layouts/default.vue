@@ -17,8 +17,8 @@
             </b-navbar-item>
 
           
-            <b-navbar-item tag="router-link" :to="{ path: '/sabores' }">
-                Sabores
+            <b-navbar-item tag="router-link" :to="{ path: '/produto' }">
+                Produto
             </b-navbar-item>
 
           
@@ -39,7 +39,7 @@
         <template #end>
             <b-navbar-item tag="div">
                 <div class="buttons">
-                    <a class="button is-warning" href="/cadastro">
+                    <a class="button is-dark" href="/cadastro">
                         <strong>Cadastre-se</strong>
                     </a>
                     <a class="button is-light" href="/login">
