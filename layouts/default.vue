@@ -45,6 +45,9 @@
                     <a class="button is-light" href="/login">
                         Login
                     </a>
+                    <a class="button is-light" href="/calc">
+                        teste
+                    </a>
                 </div>
             </b-navbar-item>
         </template>

@@ -1,6 +1,8 @@
 <template>
   <section class="section">
     <h1 class="title">Meu carrinho</h1>
+    <h1 class="title">{{quantidade * parseInt(baunilha)}}</h1>
+
     <div>
       <table class="table is-striped is-hoverable is-fullwidth">
         <thead>
@@ -14,46 +16,21 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Cookie de Baunilha</td>
+          <tr v-for="produto in produtos" :key="produto.nome">
+            <td>{{produto.nome}}</td>
             <td>
               <b-field>
-                <b-numberinput
+                <b-numberinput v-model="produto.quantidade"
                   controls-position="compact"
-                  controls-rounded
+                  controls-rounded 
                 ></b-numberinput>
               </b-field>
             </td>
-            <td>R$3,00</td>
-            <td>R$6,00</td>
+            <td>R$ {{produto.valor}}</td>
+            <td>R$ {{produto.quantidade * produto.valor}}</td>
           </tr>
-          <tr>
-            <td>Cookie de Chocolate</td>
-            <td>
-                <b-field>
-                <b-numberinput
-                  controls-position="compact"
-                  controls-rounded
-                ></b-numberinput>
-              </b-field>
-            </td>
-            <td>R$3,00</td>
-            <td>R$6,00</td>
-          </tr>
-          <tr>
-            <td>Cookie de Doce de Leite</td>
-            <td>
-                <b-field>
-                <b-numberinput
-                  controls-position="compact"
-                  controls-rounded
-                ></b-numberinput>
-              </b-field>
-
-            </td>
-            <td>R$5,00</td>
-            <td>R$5,00</td>
-          </tr>
+          
+          
         </tbody>
       </table>
       <p class="subtitle is-3">Preco Total: R$17,00</p>
@@ -64,4 +41,48 @@
   </section>
 </template>
 
-    
+<script>
+  import { SourceMapSource } from 'webpack-sources';
+  
+  export default {
+      data() {
+          return { 
+              baunilha: 3.00,
+              chocolate: 3.00,
+              doceleite: 5.00,
+              quantidade1: 0,
+              quantidade2: 0,
+              produtos:[
+                {
+                  nome:"baunilha",
+                  valor: 3.00,
+                  quantidade: 1
+                },
+                {
+                  nome:"chocolate",
+                  valor: 3.00,
+                  quantidade: 2
+                },
+                {
+                  nome:"doceleite",
+                  valor: 5.00,
+                  quantidade: 2
+                },
+                
+                {
+                  nome:"doceleite",
+                  valor: 5.00,
+                  quantidade: 2
+                }
+
+              ]
+              
+          }
+      },
+      methods: {
+        
+      
+
+      }
+  }
+  </script>
